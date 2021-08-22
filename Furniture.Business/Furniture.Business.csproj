@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Furniture.DataAccessLayer\Furniture.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\Furniture.Entities\Furniture.Entities.csproj" />
+    <ProjectReference Include="..\FurnitureEcommerce\FurnitureEcommerce.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Abstract\" />
+    <Folder Include="Concrete\" />
+  </ItemGroup>
+
+</Project>

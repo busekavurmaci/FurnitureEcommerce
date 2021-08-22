@@ -1,0 +1,26 @@
+﻿@using Furniture.Entities;
+@model Furniture.Entities.Product
+@{
+}
+<br />
+<section class="py-5">
+    <form class="form-group" method="post">
+        <b>Ürün Adı</b>
+        @Html.TextBoxFor(x => x.productName, new { @class = "form-control" })
+        <br />
+        <b>Ürün Fiyatı</b>
+        @Html.TextBoxFor(x => x.productPrice, new { @class = "form-control" })
+        <br />
+        <b>Ürün Özellikleri</b>
+        @Html.TextBoxFor(x => x.productFeatures, new { @class = "form-control" })
+        <br />
+        <b>Kategori</b>
+        <small>(1- Koltuk&Kanepe 2- Sandalye 3- Berjer 4- Sehpa)</small>
+        @Html.TextBoxFor(x => x.CategoryID, new { @class = "form-control" })
+        <br />
+        <b>Ürün Resmi</b>
+        @Html.TextBoxFor(x => x.imageUrl, new { @class = "form-control" })
+        <br />
+        <button class="btn btn-info">Ürün Ekle</button>
+    </form>
+</section>

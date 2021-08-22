@@ -1,0 +1,24 @@
+﻿<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link href="~/css/loginStyle.css" rel="stylesheet" />
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<section class="py-5">
+    <br /><br /><br /><br /><br />
+
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+            @using (Html.BeginForm("LogIn", "Login", FormMethod.Post))
+            {
+                @Html.AntiForgeryToken()
+                <br />
+                <input class="form-control" asp-for="userName" name="userName" placeholder="Kullanıcı Adı" runat="server" style="text-align: center;" />
+                <br />
+                <input class="form-control" asp-for="userPassword" name="userPassword" placeholder="Şifre" runat="server" style="text-align: center;" type="password" />
+                <br />
+                <input type="submit" value="Login" class="btn btn-outline-dark" />
+            }
+        </div>
+    </div>
+    <br /><br /><br /><br /><br />
+</section>
