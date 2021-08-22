@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace FurnitureEcommerce.Controllers
 {
+
     public class CategoryController : Controller
     {
         public DatabaseContext c = new();
