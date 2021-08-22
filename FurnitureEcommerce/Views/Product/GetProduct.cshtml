@@ -7,7 +7,7 @@
     @using (Html.BeginForm("UpdateProduct", "Product", FormMethod.Post))
     {
         <b>Ürün ID</b>
-        @Html.TextBoxFor(x => x.productID, new { @class = "form-control", disabled = "disabled" }) <br />
+        @Html.TextBoxFor(x => x.productID, new { @class = "form-control" }) <br />
         <b>Ürün Adı</b>
         @Html.TextBoxFor(x => x.productName, new { @class = "form-control" }) <br />
         <b>Ürün Fiyatı</b>
@@ -22,3 +22,5 @@
         <button class="btn btn-outline-dark">Ürün Güncelle</button>
     }
 </section>
+
+@*disabled = "disabled"*@
