@@ -59,7 +59,7 @@ namespace FurnitureEcommerce
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute("default", "{controller=Product}/{action=Index}");
+                endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}");
             });
 
         }
