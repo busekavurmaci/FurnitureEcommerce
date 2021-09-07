@@ -5,9 +5,138 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net5.0\FurnitureEcommerce.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net5.0\FurnitureEcommerce.RazorAssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net5.0\FurnitureEcommerce.RazorTargetAssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net5.0\Razor\Views\Category\GetCategory.cshtml.g.cs" />
+    <Compile Include="obj\Debug\net5.0\Razor\Views\Home\Contact.cshtml.g.cs" />
+    <Compile Include="obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs" />
+    <Compile Include="obj\Debug\net5.0\Razor\Views\Login\Index.cshtml.g.cs" />
+    <Compile Include="obj\Debug\net5.0\Razor\Views\Product\GetProduct.cshtml.g.cs" />
+    <Compile Include="obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs" />
+    <Compile Include="obj\Debug\net5.0\Razor\Views\Product\NewProduct.cshtml.g.cs" />
+    <Compile Include="obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs" />
+    <Compile Include="obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs" />
+    <Compile Include="obj\Release\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Release\net5.0\FurnitureEcommerce.AssemblyInfo.cs" />
+    <Compile Include="obj\Release\net5.0\FurnitureEcommerce.RazorAssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net5.0\appsettings.Development.json" />
+    <Content Include="bin\Debug\net5.0\appsettings.json" />
+    <Content Include="bin\Debug\net5.0\FurnitureEcommerce.deps.json" />
+    <Content Include="bin\Debug\net5.0\FurnitureEcommerce.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\net5.0\FurnitureEcommerce.runtimeconfig.json" />
+    <Content Include="bin\Debug\net5.0\libman.json" />
+    <Content Include="obj\Debug\net5.0\FurnitureEcommerce.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net5.0\staticwebassets\FurnitureEcommerce.StaticWebAssets.xml" />
+    <Content Include="obj\FurnitureEcommerce.csproj.nuget.dgspec.json" />
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\Release\net5.0\FurnitureEcommerce.csproj.FileListAbsolute.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Release\net5.0\ref\" />
+    <Folder Include="bin\Release\net5.0\runtimes\unix\lib\netcoreapp2.1\" />
+    <Folder Include="bin\Release\net5.0\runtimes\unix\lib\netcoreapp3.1\" />
+    <Folder Include="bin\Release\net5.0\runtimes\win-arm64\native\" />
+    <Folder Include="bin\Release\net5.0\runtimes\win-arm\native\" />
+    <Folder Include="bin\Release\net5.0\runtimes\win-x64\native\" />
+    <Folder Include="bin\Release\net5.0\runtimes\win-x86\native\" />
+    <Folder Include="bin\Release\net5.0\runtimes\win\lib\netcoreapp2.1\" />
+    <Folder Include="bin\Release\net5.0\runtimes\win\lib\netcoreapp3.1\" />
+    <Folder Include="bin\Release\net5.0\runtimes\win\lib\netstandard2.0\" />
     <Folder Include="Models\" />
+    <Folder Include="obj\Release\net5.0\Razor\Views\Home\" />
+    <Folder Include="obj\Release\net5.0\Razor\Views\Product\" />
+    <Folder Include="obj\Release\net5.0\Razor\Views\Shared\" />
+    <Folder Include="obj\Release\net5.0\ref\" />
+    <Folder Include="obj\Release\net5.0\staticwebassets\" />
     <Folder Include="wwwroot\img\" />
     <Folder Include="wwwroot\productImg\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net5.0\EntityFramework.dll" />
+    <None Include="bin\Debug\net5.0\EntityFramework.SqlServer.dll" />
+    <None Include="bin\Debug\net5.0\Furniture.DataAccessLayer.dll" />
+    <None Include="bin\Debug\net5.0\Furniture.DataAccessLayer.pdb" />
+    <None Include="bin\Debug\net5.0\Furniture.Entities.dll" />
+    <None Include="bin\Debug\net5.0\Furniture.Entities.pdb" />
+    <None Include="bin\Debug\net5.0\FurnitureEcommerce.dll" />
+    <None Include="bin\Debug\net5.0\FurnitureEcommerce.exe" />
+    <None Include="bin\Debug\net5.0\FurnitureEcommerce.pdb" />
+    <None Include="bin\Debug\net5.0\FurnitureEcommerce.Views.dll" />
+    <None Include="bin\Debug\net5.0\FurnitureEcommerce.Views.pdb" />
+    <None Include="bin\Debug\net5.0\Microsoft.Data.SqlClient.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.Identity.Client.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll" />
+    <None Include="bin\Debug\net5.0\Newtonsoft.Json.dll" />
+    <None Include="bin\Debug\net5.0\ref\FurnitureEcommerce.dll" />
+    <None Include="bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll" />
+    <None Include="bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll" />
+    <None Include="bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll" />
+    <None Include="bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb" />
+    <None Include="bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll" />
+    <None Include="bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll" />
+    <None Include="bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb" />
+    <None Include="bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll" />
+    <None Include="bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb" />
+    <None Include="bin\Debug\net5.0\runtimes\win-x64\native\sni.dll" />
+    <None Include="bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll" />
+    <None Include="bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb" />
+    <None Include="bin\Debug\net5.0\runtimes\win-x86\native\sni.dll" />
+    <None Include="bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll" />
+    <None Include="bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll" />
+    <None Include="bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll" />
+    <None Include="bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll" />
+    <None Include="bin\Debug\net5.0\System.CodeDom.dll" />
+    <None Include="bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll" />
+    <None Include="bin\Debug\net5.0\System.Data.SqlClient.dll" />
+    <None Include="bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll" />
+    <None Include="bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll" />
+    <None Include="bin\Debug\net5.0\System.Runtime.Caching.dll" />
+    <None Include="bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll" />
+    <None Include="obj\Debug\net5.0\apphost.exe" />
+    <None Include="obj\Debug\net5.0\FurnitureEcommerce.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net5.0\FurnitureEcommerce.assets.cache" />
+    <None Include="obj\Debug\net5.0\FurnitureEcommerce.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net5.0\FurnitureEcommerce.csproj.CopyComplete" />
+    <None Include="obj\Debug\net5.0\FurnitureEcommerce.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net5.0\FurnitureEcommerce.dll" />
+    <None Include="obj\Debug\net5.0\FurnitureEcommerce.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net5.0\FurnitureEcommerce.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net5.0\FurnitureEcommerce.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Debug\net5.0\FurnitureEcommerce.pdb" />
+    <None Include="obj\Debug\net5.0\FurnitureEcommerce.RazorAssemblyInfo.cache" />
+    <None Include="obj\Debug\net5.0\FurnitureEcommerce.RazorCoreGenerate.cache" />
+    <None Include="obj\Debug\net5.0\FurnitureEcommerce.RazorTargetAssemblyInfo.cache" />
+    <None Include="obj\Debug\net5.0\FurnitureEcommerce.TagHelpers.input.cache" />
+    <None Include="obj\Debug\net5.0\FurnitureEcommerce.TagHelpers.output.cache" />
+    <None Include="obj\Debug\net5.0\FurnitureEcommerce.Views.dll" />
+    <None Include="obj\Debug\net5.0\FurnitureEcommerce.Views.pdb" />
+    <None Include="obj\Debug\net5.0\ref\FurnitureEcommerce.dll" />
+    <None Include="obj\Debug\net5.0\staticwebassets\FurnitureEcommerce.StaticWebAssets.Manifest.cache" />
+    <None Include="obj\FurnitureEcommerce.csproj.nuget.g.props" />
+    <None Include="obj\FurnitureEcommerce.csproj.nuget.g.targets" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\Release\net5.0\apphost.exe" />
+    <None Include="obj\Release\net5.0\FurnitureEcommerce.AssemblyInfoInputs.cache" />
+    <None Include="obj\Release\net5.0\FurnitureEcommerce.assets.cache" />
+    <None Include="obj\Release\net5.0\FurnitureEcommerce.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Release\net5.0\FurnitureEcommerce.RazorAssemblyInfo.cache" />
+    <None Include="obj\Release\net5.0\FurnitureEcommerce.Views.dll" />
   </ItemGroup>
 
   <ItemGroup>
